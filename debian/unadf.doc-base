@@ -1,0 +1,13 @@
+Document: unadf
+Title: Documentation files for unADF
+Author: Laurent Clévy <lclevy@club-internet.fr>
+Abstract: The .ADF (Amiga Disk File) format FAQ
+Section: File Management
+
+Format: HTML
+Index: /usr/share/doc/unadf/adf_info.html
+Files: /usr/share/doc/unadf/adf_info.html
+
+Format: Info
+Index: /usr/share/doc/unadf/adf_info.txt.gz
+Files: /usr/share/doc/unadf/*.txt.gz

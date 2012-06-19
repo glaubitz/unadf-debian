@@ -1,0 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Debianized-By: Gürkan Sengün <gurkan@linuks.mine.nu>
+Debianized-Date: Sun, 7 Jan 2007 15:02:25 +0100
+Upstream-Name: unADF
+Upstream-Contact: Laurent Clevy <lclevy@club-internet.fr>
+Source: http://lclevy.free.fr/adflib/unadf.html
+
+Files: *
+Copyright: 1997-2007 Laurent Clevy <lclevy@club-internet.fr>
+ 1999-2000 Dan Sutherland <dan@chromerhino.demon.co.uk> (Bugfixes and Win32 source files that we don't use in Debian)
+ 2000-2002 Gary Harris (Bugfixes and Win32 support)
+ 2001-2007 Bjarne Viksoe (C++ wrapper, lot of bug fixes)
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2007-2012 Gürkan Sengün <gurkan@linuks.mine.nu>
+ 2012 Boris Pek <tehnick-8@mail.ru>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ details.
+ .
+ On Debian systems, the complete text of the GNU General Public License can
+ be found in /usr/share/common-licenses/GPL-2 file.

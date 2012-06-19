@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_build:
+	$(MAKE) -C Lib
+	$(MAKE) -C Demo
+
+override_dh_auto_clean:
+	[ ! -f Lib/adf_salv.o ] || $(MAKE) -C Lib clean
+	[ ! -f Demo/unadf.o ] || $(MAKE) -C Demo clean
+	rm -f Lib/libadf.a
+	rm -f build-stamp
+
+override_dh_auto_install:
+	install -D Demo/unadf $(CURDIR)/debian/unadf/usr/bin/unadf
+
+override_dh_installchangelogs:
+	dh_installchangelogs CHANGES.txt
+
+.PHONY: override_dh_strip
+override_dh_strip:
+	dh_strip
